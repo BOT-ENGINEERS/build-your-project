@@ -17,9 +17,6 @@ const CTASection = () => {
 
       <div className="max-w-3xl mx-auto relative z-10">
         <div className="text-center">
-          <span className="inline-block px-4 py-2 mb-6 text-sm font-medium text-primary bg-primary/10 rounded-full border border-primary/20">
-            Page 03
-          </span>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Ready to{" "}
