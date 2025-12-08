@@ -4,9 +4,6 @@ const ProblemSection = () => {
   return (
     <section className="relative py-24 px-4">
       <div className="max-w-4xl mx-auto">
-        <span className="inline-block px-4 py-2 mb-6 text-sm font-medium text-primary bg-primary/10 rounded-full border border-primary/20">
-          Page 02
-        </span>
 
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">
           Don't Buy Your Project.{" "}
