@@ -4,7 +4,7 @@ import { Calendar, ArrowRight } from "lucide-react";
 const CTASection = () => {
   const handleBookSlot = () => {
     // Open booking link - replace with actual booking URL
-    window.open("https://calendly.com", "_blank");
+    window.open("https://www.botengineersbd.com/bot-cafe", "_blank");
   };
 
   return (
