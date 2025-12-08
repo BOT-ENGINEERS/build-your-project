@@ -33,7 +33,7 @@ const HeroSection = () => {
         {/* Logo */}
         <img 
           src={logo} 
-          alt="Bot Engineers" 
+          alt="BOT Engineers" 
           className="h-16 md:h-20 mx-auto mb-8 animate-fade-up"
         />
 

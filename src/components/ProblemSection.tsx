@@ -27,7 +27,7 @@ const ProblemSection = () => {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-2">
-                At Bot Engineers, we believe in a different approach
+                At BOT Engineers, we believe in a different approach
               </h3>
               <p className="text-muted-foreground">
                 <span className="text-primary font-medium">Helping is allowed, cheating is not.</span>{" "}

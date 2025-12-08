@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="py-8 px-4 border-t border-border">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <img src={logo} alt="Bot Engineers" className="h-8" />
+        <img src={logo} alt="BOT Engineers" className="h-8" />
 
         <p className="text-sm text-muted-foreground text-center">
           Helping is allowed, cheating is not. © {new Date().getFullYear()} Bot Engineers
