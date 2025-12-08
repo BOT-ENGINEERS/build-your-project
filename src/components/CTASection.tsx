@@ -48,7 +48,7 @@ const CTASection = () => {
               <div className="text-sm text-muted-foreground">Ethical Projects</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-foreground">4.9★</div>
+              <div className="text-2xl font-bold text-foreground">4.7★</div>
               <div className="text-sm text-muted-foreground">Student Rating</div>
             </div>
           </div>
