@@ -7,14 +7,14 @@ const Footer = () => {
         <img src={logo} alt="BOT Engineers" className="h-8" />
 
         <p className="text-sm text-muted-foreground text-center">
-          Helping is allowed, cheating is not. © {new Date().getFullYear()} Bot Engineers
+          Helping is allowed, cheating is not. © {new Date().getFullYear()} BOT Engineers
         </p>
 
         <div className="flex items-center gap-4 text-sm text-muted-foreground">
-          <a href="#" className="hover:text-foreground transition-colors">
+          <a href="https://www.instagram.com/bot.engineers/" className="hover:text-foreground transition-colors">
             Instagram
           </a>
-          <a href="#" className="hover:text-foreground transition-colors">
+          <a href="https://wa.me/01748802854" className="hover:text-foreground transition-colors">
             WhatsApp
           </a>
         </div>
