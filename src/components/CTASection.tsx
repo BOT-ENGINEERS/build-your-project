@@ -40,7 +40,7 @@ const CTASection = () => {
           {/* Trust indicators */}
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-md mx-auto">
             <div className="text-center">
-              <div className="text-2xl font-bold text-foreground">500+</div>
+              <div className="text-2xl font-bold text-foreground">1000+</div>
               <div className="text-sm text-muted-foreground">Students Helped</div>
             </div>
             <div className="text-center">
