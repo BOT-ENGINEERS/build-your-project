@@ -6,7 +6,7 @@ const HeroSection = () => {
 
   useEffect(() => {
     if (iframeRef.current) {
-      iframeRef.current.src = "https://www.youtube.com/embed/JD4cIHOSly0?autoplay=1&rel=0&modestbranding=1";
+      iframeRef.current.src = "https://www.youtube.com/embed/JD4cIHOSly0?autoplay=1&rel=0&modestbranding=1&vq=hd1080";
     }
   }, []);
 
@@ -47,7 +47,7 @@ const HeroSection = () => {
           <iframe
             ref={iframeRef}
             className="w-full h-full"
-            src="https://www.youtube.com/embed/JD4cIHOSly0?autoplay=1&rel=0&modestbranding=1"
+            src="https://www.youtube.com/embed/JD4cIHOSly0?autoplay=1&rel=0&modestbranding=1&vq=hd1080"
             title="Watch This Before You Build Your Project"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
