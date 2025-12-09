@@ -1,3 +1,4 @@
+// ...existing code...
 import { useEffect, useRef } from "react";
 import logo from "@/assets/logo.png";
 
@@ -71,8 +72,10 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+      </div>
     </section>
   );
 };
 
 export default HeroSection;
+// ...existing code...
