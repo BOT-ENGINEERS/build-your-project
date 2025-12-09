@@ -56,14 +56,21 @@ const HeroSection = () => {
 
         {/* Scroll indicator */}
         <div className="mt-12 animate-fade-up-delay-3">
-          <div className="flex flex-col items-center text-muted-foreground">
-            <span className="text-sm mb-2">Scroll to learn more</span>
-            <div className="w-6 h-10 border-2 border-muted-foreground/30 rounded-full flex justify-center pt-2">
-              <div className="w-1.5 h-3 bg-foreground rounded-full animate-bounce" />
+          <div className="flex flex-col items-center text-red-500">
+            <span className="text-base font-semibold mb-2">Scroll to learn more</span>
+
+            <div className="relative w-10 h-14">
+              {/* subtle pulsing ring behind */}
+              <div className="absolute inset-0 flex justify-center items-start -z-10">
+                <div className="w-full h-full rounded-full animate-ping bg-red-500/10" />
+              </div>
+
+              <div className="w-10 h-14 border-2 border-red-300/40 rounded-full flex justify-center pt-3">
+                <div className="w-2.5 h-5 bg-red-500 rounded-full animate-bounce" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };
