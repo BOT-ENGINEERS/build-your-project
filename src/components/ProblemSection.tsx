@@ -1,3 +1,4 @@
+// ...existing code...
 import { XCircle, CheckCircle } from "lucide-react";
 
 const ProblemSection = () => {
@@ -42,61 +43,10 @@ const ProblemSection = () => {
           </p>
         </div>
 
-        {/* Comparison */}
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-destructive/5 border border-destructive/20 rounded-2xl p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <XCircle className="w-6 h-6 text-destructive" />
-              <h4 className="font-semibold text-destructive">Buying Projects</h4>
-            </div>
-            <ul className="space-y-3 text-muted-foreground text-sm">
-              <li className="flex items-start gap-2">
-                <span className="text-destructive mt-0.5">×</span>
-                <span>No real learning or skill development</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-destructive mt-0.5">×</span>
-                <span>Risk of academic penalties</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-destructive mt-0.5">×</span>
-                <span>Can't explain during viva</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-destructive mt-0.5">×</span>
-                <span>Zero career preparation</span>
-              </li>
-            </ul>
-          </div>
-
-          <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <CheckCircle className="w-6 h-6 text-primary" />
-              <h4 className="font-semibold text-primary">Building With Guidance</h4>
-            </div>
-            <ul className="space-y-3 text-muted-foreground text-sm">
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-0.5">✓</span>
-                <span>Deep understanding of concepts</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-0.5">✓</span>
-                <span>100% ethical & original work</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-0.5">✓</span>
-                <span>Confident viva performance</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-0.5">✓</span>
-                <span>Real skills for your career</span>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
   );
 };
 
 export default ProblemSection;
+// ...existing code...
