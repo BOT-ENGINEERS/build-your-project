@@ -57,7 +57,7 @@ const HeroSection = () => {
         {/* Scroll indicator */}
         <div className="mt-12 animate-fade-up-delay-3">
           <div className="flex flex-col items-center text-red-500">
-            <span className="text-base font-semibold mb-2">Scroll to learn more</span>
+            <span className="text-base font-semibold mb-2">Scroll to learn</span>
 
             <div className="relative w-10 h-14">
               {/* subtle pulsing ring behind */}
